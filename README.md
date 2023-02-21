@@ -103,7 +103,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 
-## Autor
+## 🦸 Autor
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/16972820?v=4" width="100px;" alt=""/>
 
