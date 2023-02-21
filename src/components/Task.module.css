@@ -1,0 +1,89 @@
+.lineBox {
+  background: var(--gray-400);
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
+  display: flex;  
+  gap: 1rem;  
+  padding: 1rem;
+  margin-top: 1rem;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
+
+.lineBoxComplete {
+  background: var(--gray-400);
+  border-radius: 8px;  
+  display: flex;  
+  gap: 1rem;  
+  padding: 1rem;
+  margin-top: 1rem;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
+
+.lineColumnFirst {  
+  margin-left: 1%; 
+}
+
+.lineColumnFirst input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  /* create custom checkbox appearance */
+  border-radius: 100%;
+  border: 2px solid var(--blue);  
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;  
+}
+
+.lineColumnFirst input[type="checkbox"]:hover {
+  border: 2px solid var(--blue-dark);  
+}
+
+.lineColumnFirst input[type="checkbox"]:checked {
+  border: none;  
+  background: transparent url(../assets/confirm.svg ) no-repeat 50% 50%;
+  background-color: var(--purple-dark);
+}
+
+.lineColumnFirst input[type="checkbox"]:checked:hover {  
+  border: none;  
+  background: transparent url(../assets/confirm.svg ) no-repeat 50% 50%;
+  background-color: var(--purple);
+}
+
+ 
+.lineColumnMiddle {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.lineColumnMiddleComplete {
+  flex-grow: 1;
+  text-align: left;
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.lineColumnLast {  
+  margin-right: 1%; 
+}
+
+.lineColumnLast button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.lineColumnLast button:hover {
+  color: var(--danger);
+}

@@ -1,27 +1,19 @@
 .wrapper {
   max-width: 70rem;
   margin: -3rem auto;  
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.content {  
-  line-height: 1.6;
-  color: var(--gray-300);
-  margin-top: 1.5rem;  
-  border-top: 1px solid var(--gray-300);
-}
-
-
 .totalsBox {      
-  max-width: 50rem;
+  max-width: 70rem;
   margin: 1rem auto;
-  border-bottom: 1px solid var(--gray-300);
 }
 
 .totalsContent {      
-  max-width: 50rem;
+  max-width: 53rem;
   margin: 5rem auto;
   margin-bottom: 2rem;
   display: flex;
@@ -29,11 +21,20 @@
   justify-content: space-between;  
 }
 
-.listEmpty {      
-  max-width: 50rem;
+.listTasks {      
+  max-width: 53rem;
   margin: 5rem auto;
   margin-bottom: 2rem;
+  text-align: center;  
+}
+
+.listEmpty {      
+  max-width: 52.5rem;
+  margin: 2rem auto;
+  margin-bottom: 2rem;
   text-align: center;
+  padding-top: 4rem;
+  border-top: 1px solid var(--gray-300);
 }
 
 .listEmptyMsgInfo { 
@@ -78,9 +79,14 @@
   margin-right: 1rem;
 }
 
+.taskForm input[type=text]:focus {  
+  color: var(--gray-100);  
+  outline: 1px solid var(--purple-dark);
+}
+
 .taskForm button[type=submit] {
-  margin-top: 0.75rem;
-  padding: 1.05rem 1.5rem;  
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;  
   border-radius: 8px;
   border: 0;
   background: var(--blue-dark);
@@ -99,16 +105,12 @@
   margin-left: 0.2rem;
 }
 
-
-
-@media (max-width: 768px) {
-
-  html {
-    font-size: 87.5%;
-  }
-
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
-
+.taskForm button[type=submit]:not(:disabled):hover {
+  background: var(--blue);
 }
+
+.taskForm button[type=submit]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
