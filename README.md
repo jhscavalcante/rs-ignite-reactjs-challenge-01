@@ -1,7 +1,7 @@
 # Desafio 01 - Ignite Módulo ReactJS 
 
 <h1 align="center">
-    <img alt="Lista de tarefas" title="#TodoList" src="./assets/banner.png" />
+    <img alt="Lista de tarefas" title="#TodoList" src="./assets/github/banner.png" />
 </h1>
 
 <h4 align="center"> 
@@ -45,7 +45,7 @@ Nesse desafio foi reforçado os **conceitos mais importantes** do ReactJS e que 
 O layout da aplicação está disponível no Figma:
 
 <a href="https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate">
-  <img alt="Made by @millenakmartins" src="#">
+  <img alt="Made by @millenakmartins" src="./assets/github/layout_figma.svg">
 </a>
 
 
@@ -88,6 +88,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[Uuid](https://github.com/uuidjs/uuid#readme)**
 -   **[Phosphor React](https://github.com/phosphor-icons/homepage)**
+-   **[Vite](https://github.com/vitejs/vite/tree/main/#readme)**
+-   **[Vitejs](https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme)**
 > Veja o arquivo  [package.json](https://github.com/jhscavalcante/rs-ignite-reactjs-challenge-01/blob/main/package.json)
 
 
