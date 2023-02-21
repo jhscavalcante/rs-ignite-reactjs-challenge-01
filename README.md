@@ -1,7 +1,7 @@
 # Desafio 01 - Ignite Módulo ReactJS 
 
 <h1 align="center">
-    <img alt="Lista de tarefas" title="#TodoList" src="./assets/github/banner.png" />
+    <img alt="Lista de tarefas" title="#TodoList" src="./src/assets/github/banner.png" />
 </h1>
 
 <h4 align="center"> 
@@ -45,7 +45,7 @@ Nesse desafio foi reforçado os **conceitos mais importantes** do ReactJS e que 
 O layout da aplicação está disponível no Figma:
 
 <a href="https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate">
-  <img alt="Made by @millenakmartins" src="./assets/github/layout_figma.svg">
+  <img alt="Made by @millenakmartins" src="./src/assets/github/layout_figma.svg">
 </a>
 
 
